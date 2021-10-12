@@ -1,0 +1,22 @@
+@import "./responsive";
+
+.footer{
+
+    min-height: 80px;
+    @if $fondo == celeste {
+        background-color: rgb(217, 237, 243);
+       }
+    margin-top: 0;
+
+    &__content {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+   }
+
+   &__p {
+       text-align: center;
+       color: rgb(255, 255, 255);
+       justify-content: center;
+   }
+}

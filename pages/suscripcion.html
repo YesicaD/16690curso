@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Suscripción - Tienda Monoblock</title>
+    <link rel="stylesheet" href="./media/Logo.png">
+    <link rel="stylesheet" href="./pages/">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../sass/main.css">
+    <meta name="keywords"
+        content="DISEÑO, ILUSTRACIÓN, LIBRERÍA, OBJETOS DE DISEÑO, ARTE, TIENDA, DISEÑO GRÁFICO, LIBROS ARGENTINOS, AGENDAS, CUADERNOS, ENVÍOS">
+    <meta name="description"
+        content="Tienda Monoblock ofrece los mejores objetos de diseño y librería para tu vida cotidiana">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Monoblock</a>
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav aling-items-center">
+                    <li class="nav__ul__item--hover nav-item">
+                        <a class="nav-link" href="../pages/suscripcion.html">Suscripción</a>
+                    </li>
+                    <li class="nav__ul__item--hover nav-item">
+                        <a class="nav-link" href="../pages/giftCard.html">Gift Cards</a>
+                    </li>
+                    </li>
+                    <li class="nav__ul__item--hover nav-item">
+                        <a class="nav-link" href="../pages/libros.html">Libros</a>
+                    </li>
+                    <li class="nav__ul__item--hover nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <form class="row g-3">
+            <div class="col-md-12 text-center">
+                <fieldset class="bordesTabla1">
+                    <legend class="titulosFormulario">Formulario</legend>
+                    <!--Nombre-->
+                    <Label for="Nombre">
+                        <span>¿Cuál es tu nombre?</span>
+                        <input class="estiloBoton" type="text" id="Nombre" placeholder="Escribí tu nombre">
+                    </Label>
+                    <!--Apellido-->
+                    <br>
+                    <br>
+                    <Label for="Apellido">
+                        <span>¿Cuál es tu apellido?</span>
+                        <input class="estiloBoton" type="text" id="Apellido" placeholder="Escribí tu apellido">
+                    </Label>
+                    <!--Mail-->
+                    <br>
+                    <br>
+                    <Label for="Mail">
+                        <span>Ingrese su mail</span>
+                        <input type="Email" id="Mail" placeholder="Ingrese su mail">
+                    </Label>
+                    <br>
+                    <br>
+                    <!--Contraseñas-->
+                    <label for="Contraseña">
+                        <span>Ingrese contraseña</span>
+                        <input class="estiloBoton" type="password" id="Contraseña">
+                    </label>
+                    <br>
+                    <br>
+                    <!--type date nos dice la fecha-->
+                    <label for="">
+                        <span>Fecha de Nacimiento</span>
+                        <input class="estiloBoton" type="date" id="Fecha">
+                    </label>
+
+                    <!--Horario-->
+                    <label for="">
+                        <br>
+                        <br>
+                        <span>
+                            ¿En qué horarios te encontramos?</span>
+                        <input class="estiloBoton" type="time" id="Horario">
+                    </label>
+                    <br>
+                    <br>
+                    <p class="titulosFormulario">¿Cuáles son tus intereses?</p>
+                    <!--radio -->
+                    <label for="Regalos">Libros</label>
+                    <input class="estiloBoton" type="radio" name="Intereses" id="Regalos" value="Regalo">
+                    <label for="Agendas">Agendas</label>
+                    <input class="estiloBoton" type="radio" name="Intereses" id="Agendas" value="Agendas">
+                    <label for="Librería">Librería</label>
+                    <input class="estiloBoton" type="radio" name="Intereses" id="Librería" value="Librería">
+                    <br>
+                    <br>
+                    <!--select por ejemplo selección de productos-->
+                    <div>
+                        <p class="titulosFormulario">¿Qué beneficios te gustan más?</p>
+                        <select class="estiloBoton" name="Beneficios" id="">
+                            <option value="Elige una opción">Elige una opción</option>
+                            <option value="sorteos">sorteos</option>
+                            <option value="cursos">cursos</option>
+                            <option value="2x1">2x1</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <!--Enviar boton-->
+                    <button class="estiloBoton" type="submit">enviar</button>
+                    <br>
+                    <br>
+                    <!--reset-->
+                    <input class="estiloBoton" type="reset" value="reset">
+                    <!--checkbox-->
+                    <br>
+                    <br>
+                    <label for="Acepta">
+                        <span>Acepta términos y condiciones</span>
+                        <input class="estiloBoton" type="checkbox" id="Acepta" name="Acepta" value="1">
+                    </label>
+                </fieldset>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <p class="footer__p">Copyright © 2011 Monoblock
+            <br>
+            Industry of Imagineering and their authors.
+            <br>
+            All rights reserved.
+        </p>
+    </footer>
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

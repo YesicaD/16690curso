@@ -1,0 +1,42 @@
+.redes {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 50px 25px;
+    margin: 30px 0 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .datos {
+        color: rgb(240, 158, 35);
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .redes__div {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+
+
+        &__ul {
+
+            display: flex;
+        flex-direction: row;
+        align-content: center;
+    
+            &__item {
+                color: rgba(201, 241, 53, 0.5);
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: space-between;   
+            }
+        }
+    }
+}

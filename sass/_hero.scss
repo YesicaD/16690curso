@@ -1,0 +1,51 @@
+@import"./responsive";
+@import"./header";
+
+.hero {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    padding-top: 200px;
+    margin-left: 30px;
+}
+
+.hero__container--der {
+    display: flex;
+   justify-content: right;
+   align-items: baseline;
+    padding: 30px;
+
+}
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+h1{
+    color: rgb(238, 74, 115);
+    size: $font-h1;
+    padding-top: 100px;
+}
+
+h2{
+    color: rgb(1, 83, 134);
+    size: $font-h2;
+}
+
+.hero__container--logo {
+    size: 20px;
+    }
+
+
+    .hero__container--ultima {
+        height: auto;
+        justify-content: center;
+        width:($ancho/2)-50;
+    }
+
+
+    

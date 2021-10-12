@@ -1,0 +1,30 @@
+@import "variables";
+@import "global";
+@import "medios";
+@import "presentacion";
+@import "footer";
+@import "redes";
+@import "header";
+@import "hero";
+@import "libros";
+@import "responsive";
+
+//nesting
+
+.servicios {
+
+    width: 100%;
+
+    div {
+        text-align: center;
+    }
+
+    .tipo-servicios {
+        @include caja-flex (center, center, nowrap);
+    }
+}
+
+.iconos {
+    width: 40px;
+    color: rgb(63, 241, 224);
+}
